@@ -15,14 +15,14 @@ A university coursework project for the **Pattern Recognition & Machine Learning
 Implementations built from scratch (NumPy only, no scikit-learn):
 
 - **Part A — Maximum Likelihood Estimation (MLE):** Gaussian parameter estimation (mean, covariance) for three classes and 3-D probability density visualization.
-- **Part B — Parzen Window Density Estimation:** Gaussian and hypercube kernel density estimators with bandwidth optimisation via MSE.
-- **Part C — k-Nearest Neighbours (KNN):** Custom KNN classifier with Euclidean distance, optimal *k* selection, and decision-boundary visualisation.
+- **Part B — Parzen Window Density Estimation:** Gaussian and hypercube kernel density estimators with bandwidth optimization via MSE.
+- **Part C — k-Nearest Neighbours (KNN):** Custom KNN classifier with Euclidean distance, optimal *k* selection, and decision-boundary visualization.
 
 ## Part D: Advanced Classification Pipeline
 
 A full ML pipeline for a 5-class classification problem (8 743 training samples, 224 features):
 
-1. **Preprocessing** — RobustScaler standardisation, PCA (99 % variance retention), feature selection (SelectKBest with mutual information).
+1. **Preprocessing** — RobustScaler standardization, PCA (99 % variance retention), feature selection (SelectKBest with mutual information).
 2. **Models evaluated** — Random Forest, SVM, XGBoost, LightGBM, KNN, Logistic Regression.
 3. **Ensemble** — Stacking classifier combining XGBoost, KNN, Random Forest and SVM with a Logistic Regression meta-learner.
 4. **Tuning** — GridSearchCV with Stratified K-Fold cross-validation.
