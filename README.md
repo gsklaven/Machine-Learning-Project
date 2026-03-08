@@ -37,7 +37,3 @@ A full ML pipeline for a 5-class classification problem (8 743 training samples,
 ## Usage
 
 Open the notebooks in Jupyter and run the cells sequentially. The datasets (`dataset1.csv`, `dataset2.csv`, `dataset3.csv`, `testset.csv`, `datasetTV.csv`, `datasetTest.csv`) should be placed in the working directory.
-
-## Authors
-
-Team 21 — Aristotle University of Thessaloniki
